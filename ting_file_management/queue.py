@@ -1,4 +1,4 @@
-class Queue:    
+class Queue:
     def __init__(self):
         self.queue = list()
 
@@ -17,4 +17,4 @@ class Queue:
         if (result is None):
             raise IndexError
         else:
-            return result 
+            return result
